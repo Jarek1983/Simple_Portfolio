@@ -2,10 +2,6 @@ body {
 	font-family: 'Simonetta', cursive;
 }
 
-.max-viewport {
-	min-height: 100vh;
-}
-
 #banner, #contact, #social{
 	background: linear-gradient(rgba(139,69,19,0.6),rgba(139,69,19,0.6)),url(images/photo3.jpeg);
 	background-attachment: fixed;
@@ -13,3 +9,12 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.max-viewport {
+	min-height: 60vh;
+}
+
+.main {
+	width: 100%;
+}
+
